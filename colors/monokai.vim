@@ -81,7 +81,7 @@ hi Yellow  guifg=#E6DB74 gui=none
 hi BlueU   guifg=#66D9EF gui=underline
 
 hi RedR    guifg=fg guibg=#F92672 gui=none
-hi YellowR guifg=bg guibg=#FD971F gui=none
+hi OrangeR guifg=#FD971F guibg=#FF005C gui=none
 
 
 " Syntax highligh groups
@@ -126,7 +126,7 @@ hi! link Tag          Green
 hi! link Underlined   BlueU
 "hi Ignore
 hi! link Error        RedR
-hi! link Todo         YellowR
+hi! link Todo         OrangeR
 
 " Language specific highligh groups
 " C
