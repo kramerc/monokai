@@ -20,7 +20,8 @@ hi Normal       guifg=#F8F8F2 guibg=#272822
 hi Cursor       guibg=fg
 "hi CursorIM
 "hi CursorColumn
-hi CursorLine   guibg=#3E3D32
+hi CursorLine   guibg=#272822
+hi CursorLineNr term=none gui=none guifg=#75715E guibg=#3E3D32
 hi Directory    guifg=#66D9EF gui=none
 hi DiffAdd      guifg=bg guibg=#A6E22E
 hi DiffChange   guifg=bg guibg=#E6DB74
@@ -30,9 +31,9 @@ hi ErrorMsg     guifg=#F92672 guibg=bg gui=none
 hi VertSplit    guifg=#3B3A32 guibg=bg gui=none
 hi Folded       guifg=#75715E guibg=bg gui=none
 hi FoldColumn   guifg=#75715E guibg=#3E3D32 gui=none
-hi SignColum    guifg=#75715E guibg=#3E3D32 gui=none
+hi SignColumn   guifg=#75715E guibg=#272822 gui=none
 hi IncSearch    guifg=bg guibg=#E6DB74 gui=none
-hi LineNr       guifg=#75715E guibg=#3E3D32 gui=none
+hi LineNr       guifg=#75715E guibg=#272822 gui=none
 hi MatchParen   guifg=fg guibg=bg gui=bold
 hi ModeMsg      gui=none
 hi MoreMsg      guifg=#66D9EF gui=none
