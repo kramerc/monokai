@@ -130,10 +130,6 @@ hi! link Error        RedR
 hi! link Todo         OrangeR
 
 " Language specific highligh groups
-" C
-hi link cStatement              Green
-" C++
-hi link cppStatement            Green
 " CSS
 hi link cssBraces               White
 hi link cssFontProp             White
@@ -148,8 +144,6 @@ hi link cssPagingProp           White
 hi link cssTableProp            White
 hi link cssUIProp               White
 hi link cssFontDescriptorProp   White
-" Java
-hi link javaStatement           Green
 " Ruby
 hi link rubyClassVariable       White
 hi link rubyControl             Green
