@@ -101,7 +101,7 @@ hi! link Identifier   Green
 hi! link Statement    Red
 "hi Conditional
 "hi Repeat
-"hi Label
+hi! link Label        Blue
 hi! link Operator     Red
 "hi Keyword
 "hi Exception
